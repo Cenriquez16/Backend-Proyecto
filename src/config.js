@@ -3,9 +3,9 @@ config();
 
 export default {
   port: process.env.PORT || 4000,
-  dbUser: process.env.DB_USER || "root",
-  dbPassword: process.env.DB_PASSWORD || "toor",
-  dbServer: process.env.DB_SERVER || "",
+  dbUser: process.env.DB_USER || "adminsql",
+  dbPassword: process.env.DB_PASSWORD || "Admin1234",
+  dbServer: process.env.DB_SERVER || "sqlrivera.database.windows.net",
   dbDatabase: process.env.DB_DATABASE || "",
   dbPort: process.env.DB_PORT ? parseInt(process.env.DB_PORT) : 1433,
   // dbPort: process.env.DB_PORT || 1433,
